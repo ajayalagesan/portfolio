@@ -8647,7 +8647,8 @@ display: none;
     display: block;
     width: 100%;
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+  }
 
 .ftco-about ul.about-info {
   display: inline-block;
@@ -8972,7 +8973,14 @@ display: none;
           max-width: 100%;
           opacity: 1; }
           .project.img-2 .text span {
-            color: rgba(255, 255, 255, 0.8); } }
+            color: rgba(255, 255, 255, 0.8); } 
+            .ftco-about .img-about .img {
+              display: block;
+              width: 100%;
+              position: relative;
+              z-index: 1; 
+            height: 525px;}
+          }
   .project .overlay {
     position: absolute;
     top: 0;
